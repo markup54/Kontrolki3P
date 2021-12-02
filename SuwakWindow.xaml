@@ -25,12 +25,30 @@
             Mode=TwoWay}"
             ></TextBox>
         <Button>1</Button>
-        <Label Target="{Binding ElementName=textBox}">
+        <Label FontStyle="Oblique" Target="{Binding ElementName=textBox}">
             la_bel
-            <!--
-            
-            -->
-            lab_el
+            Jakiś tekst w label 
+            Jakiś tekst w label
+        
+            Jakiś tekst w label
+            Jakiś tekst w label
         </Label>
+        <TextBlock TextWrapping="WrapWithOverflow">
+            jakiś tekst w textblock
+            jakiś tekst w textblock<LineBreak/>
+            <Bold>jakiś tekst w textblock</Bold>
+            jakiś tekst w textblock
+            jakiś tekst w textblock
+            jakiś tekst w textblock
+        </TextBlock>
+        <TextBox 
+            AcceptsReturn="True" 
+            AcceptsTab="True"
+            Height="100"
+            Language="pl-pl"
+            SpellCheck.IsEnabled="True"
+            ToolTip="Przykład czegos podobnego do textarea">
+            
+        </TextBox>
     </StackPanel>
 </Window>
